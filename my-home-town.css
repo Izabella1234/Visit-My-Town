@@ -1,0 +1,99 @@
+body {
+	font-family: "Cardo", serif;
+	margin: 0px;
+}
+
+#introduce {
+	height: 343px;
+	background-image: url("img/panorama.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #ffffff;
+	text-shadow: 1px 1px black;
+}
+
+.italic {
+	font-weight: 400;
+	font-style: italic;
+	background-color: #0a2778;
+	padding: 10px 20px;
+	border-radius: 5%;
+	opacity: 0.9;
+}
+
+#visitwroclaw {
+	font-weight: 700;
+	font-size: larger;
+	background-color: #0a2778;
+	padding: 5px 30px;
+	border-radius: 5%;
+	opacity: 0.7;
+}
+
+#afterinfo {
+	text-align: center;
+	color: #0a2778;
+}
+.maleimg {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	display: block;
+	margin: 10px auto;
+}
+
+#describe {
+	display: flex;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgb(207, 238, 252);
+}
+
+#describe div {
+	width: 200px;
+	padding: 5px;
+	margin: 20px;
+	text-align: center;
+}
+
+.aboutme {
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#card {
+	height: 250px;
+	width: 400px;
+	background-color: rgb(181, 232, 255);
+	margin-top: 100px;
+	margin-bottom: 100px;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	border-bottom: 5px #0a2778 solid;
+	border-radius: 10px;
+}
+
+#imgja {
+	margin-top: 10px;
+	margin-left: 20px;
+	width: 150px;
+}
+
+.tekstaboutme {
+	padding: 20px;
+}
+
+#italic2 {
+	font-weight: 400;
+	font-style: italic;
+}
